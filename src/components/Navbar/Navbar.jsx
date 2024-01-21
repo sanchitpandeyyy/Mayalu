@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-scroll';
 import Logo from '../../assets/logo1.png'
+import './Navbar.scss'
 
 
 const Navbar = () => {
