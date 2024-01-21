@@ -5,8 +5,11 @@ import './Navbar.scss'
 
 
 const Navbar = () => {
+
+  
+
   return (
-    <div id='nav' className=" navbar fixed z-50 lg:static text-[#EAEBED] bg-[#6737c1] drop-shadow-2xl">
+    <div id='nav' className="active navbar fixed z-50 lg:static text-[#EAEBED] bg-[#6737c1] drop-shadow-2xl">
   <div className="">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -17,16 +20,16 @@ const Navbar = () => {
         <Link activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
         </li>
       <li>  
-      <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+      <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
       </li>
       <li>
-        <Link activeClass="active" to="packages" spy={true} smooth={true} offset={-100} duration={500}>Packages</Link>
+        <Link activeClass="active" to="packages" spy={true} smooth={true} offset={-70} duration={500}>Packages</Link>
         </li>
         <li>
-        <Link activeClass="active" to="gallery" spy={true} smooth={true} offset={-100} duration={500}>Gallery</Link>
+        <Link activeClass="active" to="gallery" spy={true} smooth={true} offset={-70} duration={500}>Gallery</Link>
         </li>
         <li>
-        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link>
         </li>
       </ul>
     </div>
@@ -34,21 +37,21 @@ const Navbar = () => {
     <a className="btn btn-ghost text-xl">Mayalu Driving</a>
   </div>
   <div className=" hidden lg:flex">
-    <ul className="menu w-[85vw] flex justify-evenly menu-horizontal  px-1">
+    <ul className="menu w-[85vw]  flex justify-evenly menu-horizontal  px-1">
     <li>
-        <Link activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+        <Link activeClass='active' className='hover:bg-[#a18bca]' to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
         </li>
       <li>  
-      <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+      <Link activeClass="active" className='hover:bg-[#a18bca]' to="about" spy={true} smooth={true} offset={0} duration={500}>About</Link>
       </li>
       <li>
-        <Link activeClass="active" to="packages" spy={true} smooth={true} offset={-100} duration={500}>Packages</Link>
+        <Link activeClass="active" className='hover:bg-[#a18bca]' to="packages" spy={true} smooth={true} offset={0} duration={500}>Packages</Link>
         </li>
         <li>
-        <Link activeClass="active" to="gallery" spy={true} smooth={true} offset={-100} duration={500}>Gallery</Link>
+        <Link activeClass="active" className='hover:bg-[#a18bca]' to="gallery" spy={true} smooth={true} offset={0} duration={500}>Gallery</Link>
         </li>
         <li>
-        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
+        <Link activeClass="active" className='hover:bg-[#a18bca]' to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact</Link>
         </li>
     </ul>
    
