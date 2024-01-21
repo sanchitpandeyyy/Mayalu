@@ -1,40 +1,41 @@
-$primary-clr: #01A7C2;
+$primary-clr: #fafafa;
 $secondary-clr: rgb(234, 235, 237);
 
-@mixin flexprop($jus){
-    display: flex;
-    justify-content: $jus;
-    align-items: center;
-  }
+@mixin flexprop($jus) {
+  display: flex;
+  justify-content: $jus;
+  align-items: center;
+}
 
-.main-container{
-    background-color: $primary-clr;
-    height: 3rem;
-    width: 100vw;
-    @include flexprop(space-between);
-    padding: 30px;
-   
-    p{
-    color: white;
+.main-container {
+  background-color: $primary-clr;
+  height: 3rem;
+  width: 100vw;
+  @include flexprop(space-between);
+  padding: 30px;
+
+  p {
+    color: blueviolet;
     font-weight: 400;
     text-align: center;
     font-size: small;
-   
-}
+  }
 
-.phone{
-  @include flexprop(space-around);
-  width:14rem;
-  font-size: 85%;
-  color: white;
-}
+  .phone {
+    @include flexprop(space-around);
+    width: 14rem;
+    font-size: 85%;
+    color: blueviolet;
+  }
 
-.location{
-  @include flexprop(space-around);
-  width:11rem;
-  font-size: 85%;
-  color: white;
-}
+  .location {
+    @include flexprop(space-around);
+    width: 11rem;
+    font-size: 85%;
+    color: blueviolet;
+  }
 
+  @media screen and (max-width: 940px) {
+    display: none; 
+  }
 }
-
