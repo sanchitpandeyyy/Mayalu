@@ -3,7 +3,9 @@ import React from 'react'
 const Gallery = () => {
   return (
     <div id='gallery' className='bg-[#f5f5f5] pt-10 pb-20 pl-5 pr-5 '>
-        <h1 className="lg:text-5xl text-4xl font-bold text-center text p-10">Our Gallery</h1>
+      
+    
+        <h1 className='g:text-5xl text-4xl font-bold text-center  p-10'>Our Gallery</h1>
 
         <div className="carousel rounded-box">
   <div className="carousel-item">

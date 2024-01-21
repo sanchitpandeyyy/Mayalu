@@ -117,9 +117,7 @@ body {
 
 .loading-window {
   @extend .fadeIn;
-  background: $background-color;
-  border-radius: $border-radius-big;
-  border: 3px solid $border-color;
+
   color: $car-color;
   height: 200px;
   left: 50%;

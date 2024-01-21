@@ -3,6 +3,7 @@ import Logo from '../../assets/logo1.png'
 import { MdLocalPhone } from 'react-icons/md';
 import { FaLocationDot } from 'react-icons/fa6';
 import { MdEmail } from "react-icons/md";
+import { Link } from 'react-scroll';
 
 
 const Footer = () => {
@@ -11,14 +12,14 @@ const Footer = () => {
         <footer className="footer  p-10 text-[#EAEBED] bg-[#6737c1]">
   <aside>
     <img src={Logo} alt="" className='w-20' />
-    <p>Mayalu Driving, Tours and Travels<br/>Providing reliable sevices since 2067</p>
+    <p>Mayalu Driving Tours and Travel<br/>Providing reliable sevices since 2067</p>
   </aside> 
 
   <nav>
     <header className="footer-title">Company</header> 
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Packages</a>
-    <a className="link link-hover">Gallery</a>
+    <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">About us</Link>
+    <Link to="packages" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">Packages</Link>
+    <Link to="gallery" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">Gallery</Link>
   </nav> 
   <nav>
     <header className="footer-title">Get In Contact</header> 
@@ -38,12 +39,12 @@ const Footer = () => {
           Butwal, Milanchowk
         </a>
       </ul>
-      <ul className='flex w-[15rem] justify-between items-center'>
+      <ul className='flex w-[14rem] justify-between items-center'>
         <li>
           <MdEmail className=' h-[1rem] w-4' />
         </li>
         <a target='_blank' href='mailto:sanchitpandeyyy@gmail.com'>
-          sanchitpandeyyy@gmail.com
+          mayaludriving@gmail.com
         </a>
       </ul>
   </nav>
@@ -52,7 +53,7 @@ const Footer = () => {
 
 <footer className="footer footer-center p-4  text-base-content bg-[#6737c1] border-t-2">
   <aside>
-    <p>Copyright © 2024 - All right reserved by Mayalu Driving Center</p>
+    <p>Copyright © 2024 - All right reserved by Mayalu Driving Tour and Travel</p>
     <p>Design and Developed By <a className='font-bold text-white' href="https://www.facebook.com/sanchitpandeyyy/">Sanchit Pandey</a></p>
   </aside>
 </footer>
