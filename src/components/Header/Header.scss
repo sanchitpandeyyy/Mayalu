@@ -10,7 +10,7 @@ $secondary-clr: rgb(234, 235, 237);
 .main-container {
   background-color: $primary-clr;
   height: 3rem;
-  width: 100vw;
+
   @include flexprop(space-between);
   padding: 30px;
 
