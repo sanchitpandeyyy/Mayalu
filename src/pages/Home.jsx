@@ -1,7 +1,6 @@
 import React from 'react';
 import slider1 from '../assets/image1.jpg'
-import slider2 from '../assets/image2.jpg'
-import slider3 from '../assets/imag3.jpg'
+
 
 
 function Home() {
