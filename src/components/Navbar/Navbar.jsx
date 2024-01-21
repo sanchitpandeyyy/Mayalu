@@ -14,10 +14,10 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu btn-ghost menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <li>
-        <Link>Home</Link>
+        <Link activeClass="active" to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
         </li>
       <li>  
-      <Link>About</Link>
+      <Link activeClass="active" to="About" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
       </li>
       <li>
         <Link>Pakages</Link>

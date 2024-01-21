@@ -5,13 +5,12 @@ import slider3 from '../assets/imag3.jpg'
 const Packages = () => {
   return (
     <div className="p-20">
-      <div className="text-3xl text-[#6737c1] font-black text-center pb-10">
-        Our Packages
-      </div>
+      <h1 className="lg:text-5xl text-4xl font-bold text-center">Our Packages</h1>
 
       <div className="p-10  flex flex-col justify-between lg:flex-row items-center">
-      <div className="card mt-10 w-96 bg-base-100 shadow-xl image-full ">
+      <div className="card mt-10 w-80 bg-base-100 shadow-xl image-full ">
           <figure>
+      
             <img
               src={slider3}
               alt="Car"
@@ -26,7 +25,7 @@ const Packages = () => {
           </div>
         </div>
 
-        <div className="card mt-10 w-96 bg-base-100 shadow-xl image-full">
+        <div className="card mt-10 w-80 bg-base-100 shadow-xl image-full">
           <figure>
             <img
               src={slider2}
@@ -42,7 +41,7 @@ const Packages = () => {
           </div>
         </div>
 
-        <div className="card mt-10 w-96 bg-base-100 shadow-xl image-full">
+        <div className="card mt-10 w-80 bg-base-100 shadow-xl image-full">
           <figure>
             <img
               src={slider3}
