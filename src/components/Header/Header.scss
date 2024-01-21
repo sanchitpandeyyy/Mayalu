@@ -1,0 +1,40 @@
+$primary-clr: #01A7C2;
+$secondary-clr: rgb(234, 235, 237);
+
+@mixin flexprop($jus){
+    display: flex;
+    justify-content: $jus;
+    align-items: center;
+  }
+
+.main-container{
+    background-color: $primary-clr;
+    height: 3rem;
+    width: 100vw;
+    @include flexprop(space-between);
+    padding: 30px;
+   
+    p{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: small;
+   
+}
+
+.phone{
+  @include flexprop(space-around);
+  width:14rem;
+  font-size: 85%;
+  color: white;
+}
+
+.location{
+  @include flexprop(space-around);
+  width:11rem;
+  font-size: 85%;
+  color: white;
+}
+
+}
+
