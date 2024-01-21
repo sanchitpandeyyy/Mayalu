@@ -4,7 +4,7 @@ import slider3 from '../assets/imag3.jpg'
 
 const Packages = () => {
   return (
-    <div className="p-20">
+    <div id="packages" className="p-20">
       <h1 className="lg:text-5xl text-4xl font-bold text-center">Our Packages</h1>
 
       <div className="p-10  flex flex-col justify-between lg:flex-row items-center">

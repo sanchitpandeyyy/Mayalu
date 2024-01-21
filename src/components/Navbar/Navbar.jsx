@@ -6,7 +6,7 @@ import './Navbar.scss'
 
 const Navbar = () => {
   return (
-    <div id='nav' className=" navbar text-[#EAEBED] bg-[#6737c1] drop-shadow-2xl">
+    <div id='nav' className=" navbar fixed z-50 lg:static text-[#EAEBED] bg-[#6737c1] drop-shadow-2xl">
   <div className="">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -14,19 +14,19 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu btn-ghost menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <li>
-        <Link activeClass="active" to="Home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+        <Link activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
         </li>
       <li>  
-      <Link activeClass="active" to="About" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+      <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
       </li>
       <li>
-        <Link>Pakages</Link>
+        <Link activeClass="active" to="packages" spy={true} smooth={true} offset={-100} duration={500}>Packages</Link>
         </li>
         <li>
-        <Link>Gallery</Link>
+        <Link activeClass="active" to="gallery" spy={true} smooth={true} offset={-100} duration={500}>Gallery</Link>
         </li>
         <li>
-        <Link>Contact</Link>
+        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
         </li>
       </ul>
     </div>
@@ -35,20 +35,20 @@ const Navbar = () => {
   </div>
   <div className=" hidden lg:flex">
     <ul className="menu w-[85vw] flex justify-evenly menu-horizontal  px-1">
-      <li>
-        <Link>Home</Link>
+    <li>
+        <Link activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
         </li>
       <li>  
-      <Link>About</Link>
+      <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
       </li>
       <li>
-        <Link>Pakages</Link>
+        <Link activeClass="active" to="packages" spy={true} smooth={true} offset={-100} duration={500}>Packages</Link>
         </li>
         <li>
-        <Link>Gallery</Link>
+        <Link activeClass="active" to="gallery" spy={true} smooth={true} offset={-100} duration={500}>Gallery</Link>
         </li>
         <li>
-        <Link>Contact</Link>
+        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
         </li>
     </ul>
    

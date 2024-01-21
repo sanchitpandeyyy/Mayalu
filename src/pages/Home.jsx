@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <>
-<div className="hero " >
+<div id='home' className="hero " >
   <img src={slider1} className='min-h-screen' alt="" />
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
