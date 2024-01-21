@@ -47,6 +47,14 @@ const Footer = () => {
         </a>
       </ul>
   </nav>
+  
+</footer>
+
+<footer className="footer footer-center p-4  text-base-content bg-[#6737c1] border-t-2">
+  <aside>
+    <p>Copyright © 2024 - All right reserved by Mayalu Driving Center</p>
+    <p>Design and Developed By <a className='font-bold text-white' href="https://www.facebook.com/sanchitpandeyyy/">Sanchit Pandey</a></p>
+  </aside>
 </footer>
     </div>
   )
