@@ -17,6 +17,7 @@ const Footer = () => {
 
   <nav>
     <header className="footer-title">Company</header> 
+    <Link to="home" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">Home</Link>
     <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">About us</Link>
     <Link to="packages" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">Packages</Link>
     <Link to="gallery" spy={true} smooth={true} offset={-70} duration={500} className="link link-hover">Gallery</Link>
