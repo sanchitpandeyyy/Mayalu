@@ -11,7 +11,7 @@ const about = () => {
         </div>
       </div>
       <div className="about-right">
-        <h1 className="text-3xl text-[#6737c1] font-black">About Us</h1>
+        <h1 className="text-5xl font-bold  text-[#6737c1] pb-5">About Us</h1>
         <div className="sep">
           <p className="a-sub" data-aos="fade-left">
             <span style={{ fontWeight: "bold" }}>Mayalu Driving</span>{" "}
