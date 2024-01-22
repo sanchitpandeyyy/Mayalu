@@ -16,13 +16,13 @@ const about = () => {
   return (
 
      
-     <div id="about" className="hero p-10 bg-[#f3f3f3] min-h-screen ">
+     <div id="about" className="hero pt-10 lg:p-10 bg-[#f3f3f3] min-h-screen ">
   <div className="hero-content flex-col lg:flex-row">
-    <img src={ImG2} className="max-w-sm rounded-lg hover:shadow-md hover:shadow-blue-400" />
+    <img src={ImG2} className="max-w-[50vw] max-h-auto overflow-hidden rounded-lg hover:shadow-md hover:shadow-blue-400" />
     <div className="ml-10">
-      <h1 className="text-5xl font-bold lg:text-left text-center">About US</h1>
+      <h1 className="text-4xl lg:text-5xl font-bold lg:text-left text-center">About US</h1>
       {abouttxt.map((s)=>{
-        return <p className="py-6">{s}</p>
+        return <p className="py-6 text-sm ">{s}</p>
       })}
       
     </div>
