@@ -12,7 +12,7 @@ const Footer = () => {
         <footer className="footer  p-10 text-[#EAEBED] bg-[#6737c1]">
   <aside>
     <img src={Logo} alt="" className='w-20' />
-    <p>Mayalu Driving Tours and Travel<br/>Providing reliable sevices since 2067</p>
+    <p>Mayalu Driving Traning Center Tour and Travels<br/>Providing reliable sevices since 2067</p>
   </aside> 
 
   <nav>
@@ -24,13 +24,13 @@ const Footer = () => {
   </nav> 
   <nav>
     <header className="footer-title">Get In Contact</header> 
-    <ul className="flex w-[13rem] justify-between">
+    <ul className="flex w-[14rem] justify-between">
     <li>
           <MdLocalPhone className=' w-5 h-5' />
         </li>
-        <a href='tel:+9841148149'>9841148149</a>
+        <a href='tel:+977 9857039400'>9857039400</a>
         <li>|</li>
-        <a href='tel:+9847092212'>9847092212</a>
+        <a href='tel:+977 9804429400'>9804429400</a>
     </ul>
     <ul className='flex w-[10.5rem] justify-between items-center'>
         <li>
@@ -44,7 +44,7 @@ const Footer = () => {
         <li>
           <MdEmail className=' h-[1rem] w-4' />
         </li>
-        <a target='_blank' href='mailto:sanchitpandeyyy@gmail.com'>
+        <a target='_blank' href='mailto:mayaludriving@gmail.com'>
           mayaludriving@gmail.com
         </a>
       </ul>
@@ -52,9 +52,10 @@ const Footer = () => {
   
 </footer>
 
-<footer className="footer footer-center p-4  text-base-content bg-[#6737c1] border-t-2">
+<footer className="footer footer-center p-4  text-gray-300 bg-[#6737c1] border-t-2">
   <aside>
-    <p>Copyright © 2024 - All right reserved by Mayalu Driving Tour and Travel</p>
+    <p>Copyright © {new Date().getFullYear()}
+     - All right reserved by Mayalu Driving Traning Center Tour and Travels</p>
     <p>Design and Developed By <a className='font-bold text-white' href="https://www.facebook.com/sanchitpandeyyy/">Sanchit Pandey</a></p>
   </aside>
 </footer>

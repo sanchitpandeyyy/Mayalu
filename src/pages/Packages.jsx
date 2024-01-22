@@ -7,8 +7,8 @@ const Packages = () => {
     <div id="packages" className="p-20 bg-[#ffffff]">
       <h1 className="lg:text-5xl text-4xl font-bold text-center">Our Packages</h1>
 
-      <div className="p-10   flex flex-col justify-between lg:flex-row items-center">
-      <div className="card mt-10 w-80 bg-base-100 shadow-xl image-full ">
+      <div className="p-8 flex flex-col justify-between lg:flex-row items-center">
+      <div className="card mt-10 w-[17rem] lg:w-80 bg-base-100 shadow-xl image-full ">
           <figure>
       
             <img
@@ -25,7 +25,7 @@ const Packages = () => {
           </div>
         </div>
 
-        <div className="card mt-10 w-80 bg-base-100 shadow-xl image-full">
+        <div className="card mt-10 w-[17rem] lg:w-80 bg-base-100 shadow-xl image-full">
           <figure>
             <img
               src={slider2}
@@ -41,7 +41,7 @@ const Packages = () => {
           </div>
         </div>
 
-        <div className="card mt-10 w-80 bg-base-100 shadow-xl image-full">
+        <div className="card mt-10 w-[17rem] lg:w-80 bg-base-100 shadow-xl image-full">
           <figure>
             <img
               src={slider3}
