@@ -29,8 +29,8 @@ const Gallery = () => {
  <div className='grid grid-cols-3 gap-4'>
 
   {slides.map((s) => {
-          return   <div>
-              <img src={s} className='border-8 rounded-lg border-white hover:shadow-md  hover:shadow-blue-200 w-[30vw] m-2' alt={s+1} />
+          return   <div className='max-w-[40vw] max-h-[25v] overflow-hidden'>
+              <img src={s} className='border-8 rounded-lg border-white w-full hover:shadow-md hover:shadow-blue-200  m-2' alt={s+1} />
           </div>
           
         })}
