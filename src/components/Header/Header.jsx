@@ -12,9 +12,9 @@ const Header = () => {
         <li>
           <MdLocalPhone className=' w-5 h-5' />
         </li>
-        <a href='tel:+9841148149'>9841148149</a>
+        <a href='tel:+977 9857039400'>9857039400</a>
         <li>|</li>
-        <a href='tel:+9847092212'>9847092212</a>
+        <a href='tel:+977 9804429400'>9804429400</a>
       </ul>
 
       <ul className='location'>

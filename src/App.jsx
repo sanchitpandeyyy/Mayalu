@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Loader from './components/Loader/Loader'
 import Gallery from './pages/Gallery'
 import Aos from "aos";
+import 'aos/dist/aos.css';
 
 
 
@@ -17,7 +18,7 @@ function App() {
   const [loader, setloader] = useState(true);
   useEffect(() => {
     Aos.init({ easing: "ease", duration: 700 });
-  });
+  },[]);
   useEffect(() => {
     setTimeout(() => {
       setloader(false);
@@ -25,11 +26,11 @@ function App() {
   });
 
   return (
-    <div>
+    <div className=''>
        {loader ? (
         <Loader />
       ) : (
-        <div>
+        <div className=''>
       <Header/>
       <Navbar />
       <Home/>

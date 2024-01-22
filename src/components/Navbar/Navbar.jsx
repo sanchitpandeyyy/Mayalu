@@ -33,8 +33,8 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-    <img src={Logo} alt="logo" className='w-14 ' />
-    <a className="btn btn-ghost text-xl">Mayalu Driving</a>
+    <img src={Logo} alt="logo" className='lg:w-12 w-9 ' />
+    <a className="btn btn-ghost text-sm lg:text-xl">Mayalu Driving</a>
   </div>
   <div className=" hidden lg:flex">
     <ul className="menu w-[85vw]  flex justify-evenly menu-horizontal  px-1">

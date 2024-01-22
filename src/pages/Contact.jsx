@@ -83,8 +83,8 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="card shrink-0 shadow-2xl bg-[#f5f5f5] ">
-            <form className="card-body">
+          <div className=" w-[15rem] lg:w-[25rem] card shrink-0 shadow-2xl bg-[#f5f5f5] ">
+            <form className="card-body ">
 
               <div className="form-control ">
                 <label className="label">
